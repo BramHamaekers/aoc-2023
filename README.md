@@ -48,5 +48,3 @@ A list of repositories with solutions, made by [KULeuven students](https://githu
 
 ## Advent of Code 2022
 C++ solutions: https://github.com/BramHamaekers/aoc-2022
-## Advent of Code 2021
-Python solutions: https://github.com/BramHamaekers/aoc-2021
