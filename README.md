@@ -16,10 +16,11 @@ A list of repositories with solutions, made by [KULeuven students](https://githu
 
 
 ## Overview
-<!--
+
 | Day                                        | Name                     | Stars |
 | -----------------------------------------  | -----------              | ----- |
-| [01](https://adventofcode.com/2023/day/1)  | Calorie Counting         | ⭐⭐ |
+| [01](https://adventofcode.com/2023/day/1)  |Trebuchet?!         | ⭐⭐ |
+<!--
 | [02](https://adventofcode.com/2023/day/2)  | Rock Paper Scissors      | ⭐⭐ |
 | [03](https://adventofcode.com/2023/day/3)  | Rucksack Reorganization  | ⭐⭐ |
 | [04](https://adventofcode.com/2023/day/4)  | Camp Cleanup             | ⭐⭐ |
