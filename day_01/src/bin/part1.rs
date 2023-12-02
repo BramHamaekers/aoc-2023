@@ -12,12 +12,11 @@ fn find_digit(line: &str) -> i32 {
 }
 
 pub fn part1(input: &str) -> i32 {
-    let lines: Vec<String> = input.lines().map(String::from).collect();
-    let mut values = Vec::<i32>::new();
-    for line in lines {
-        values.push(find_digit(&line) * 10 + find_digit(&line.chars().rev().collect::<String>()));
-    }
-    return values.iter().sum();
+    input.lines()
+        .map(|line| {
+            find_digit(&line) * 10 + find_digit(&line.chars().rev().collect::<String>())
+        })
+        .sum()
 }
 
 #[cfg(test)]
