@@ -19,9 +19,9 @@ A list of repositories with solutions, made by [KULeuven students](https://githu
 
 | Day                                        | Name                     | Stars |
 | -----------------------------------------  | -----------              | ----- |
-| [01](https://adventofcode.com/2023/day/1)  |Trebuchet?!         | ⭐⭐ |
+| [01](https://adventofcode.com/2023/day/1)  | Trebuchet?!              | ⭐⭐ |
+| [02](https://adventofcode.com/2023/day/2)  | Cube Conundrum           | ⭐⭐ |
 <!--
-| [02](https://adventofcode.com/2023/day/2)  | Rock Paper Scissors      | ⭐⭐ |
 | [03](https://adventofcode.com/2023/day/3)  | Rucksack Reorganization  | ⭐⭐ |
 | [04](https://adventofcode.com/2023/day/4)  | Camp Cleanup             | ⭐⭐ |
 | [05](https://adventofcode.com/2023/day/5)  | Supply Stacks            | ⭐⭐ |
