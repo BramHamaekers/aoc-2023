@@ -24,8 +24,6 @@ pub fn is_valid_game (balls: &str) -> bool {
     }
     return true
 }
-    
-
 
 pub fn part1(input: &str) -> i32 {
     let lines: Vec<String> = input.lines().map(String::from).collect();
@@ -42,8 +40,6 @@ pub fn part1(input: &str) -> i32 {
     }
     return result;
     }
-
-    
 
 #[cfg(test)]
 mod tests {
