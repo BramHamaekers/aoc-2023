@@ -26,20 +26,16 @@ pub fn is_valid_game (balls: &str) -> bool {
 }
 
 pub fn part1(input: &str) -> i32 {
-    let lines: Vec<String> = input.lines().map(String::from).collect();
-    let mut result: i32 = 0;
-
-    for line in lines {
-        let vector: Vec<&str> = line.split(": ").collect();
-        if let [game_id, balls] = vector.as_slice() {
-            let game_id = game_id[5..].parse::<i32>().unwrap_or_default();
-            if is_valid_game(balls) {
-                result += game_id;
+    return input.lines()
+         .map(|line| {
+            if let [game_id, balls] = line.split(": ").collect::<Vec<&str>>().as_slice() {
+                let game_id = game_id[5..].parse::<i32>().unwrap_or_default();
+                if is_valid_game(balls) { game_id} else { 0 }
             }
-        }
-    }
-    return result;
-    }
+            else { 0 }
+         })
+         .sum();
+}
 
 #[cfg(test)]
 mod tests {
