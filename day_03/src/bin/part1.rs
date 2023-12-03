@@ -1,5 +1,3 @@
-use core::num;
-
 fn main() {
     let input = include_str!("./input/input.txt");
     let output = part1(input);
@@ -47,9 +45,7 @@ pub fn part1(input: &str) -> i32 {
                 number = build_number(number, element as i32 - '0' as i32);
                 continue;
             }
-            if is_part_number {
-                result += number
-            }
+            if is_part_number {result += number}
             number = 0;
             is_part_number = false;
         }
