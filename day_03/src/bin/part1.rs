@@ -1,3 +1,5 @@
+use core::num;
+
 fn main() {
     let input = include_str!("./input/input.txt");
     let output = part1(input);
@@ -37,43 +39,22 @@ pub fn part1(input: &str) -> i32 {
 
     for (i, row) in matrix.iter().enumerate() {
         let mut number = 0;
-        let mut building_number = false;
         let mut is_part_number = false;
 
         for (j, &element) in row.iter().enumerate() {
-            if element != '.' {
-                if element.is_digit(10) {
-                    if !building_number {
-                        building_number = true;
-                    }
-                    if !is_part_number {
-                        is_part_number = has_adjacent_symbol(&matrix, i, j);
-                    }
-                    number = build_number(number, element as i32 - '0' as i32);
-                }
-                else if building_number {
-                        if is_part_number {
-                            result += number;
-                        }
-                        number = 0;
-                        building_number = false;
-                        is_part_number = false;
-                    }
-            } else if building_number {
-                    if is_part_number {
-                        result += number;
-                    }
-                    number = 0;
-                    building_number = false;
-                    is_part_number = false;
-                }
+            if element.is_digit(10) {
+                if !is_part_number {is_part_number = has_adjacent_symbol(&matrix, i, j)}
+                number = build_number(number, element as i32 - '0' as i32);
+                continue;
+            }
+            if is_part_number {
+                result += number
+            }
+            number = 0;
+            is_part_number = false;
         }
-
-        if is_part_number {
-            result += number;
-        }
+        if is_part_number {result += number}
     }
-
     result
 }
 
