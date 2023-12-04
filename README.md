@@ -21,9 +21,9 @@ A list of repositories with solutions, made by [KULeuven students](https://githu
 | -----------------------------------------  | -----------              | ----- |
 | [01](https://adventofcode.com/2023/day/1)  | Trebuchet?!              | ⭐⭐ |
 | [02](https://adventofcode.com/2023/day/2)  | Cube Conundrum           | ⭐⭐ |
+| [03](https://adventofcode.com/2023/day/3)  | Gear Ratios              | ⭐ |
+| [04](https://adventofcode.com/2023/day/4)  | Scratchcards             | ⭐ |
 <!--
-| [03](https://adventofcode.com/2023/day/3)  | Rucksack Reorganization  | ⭐⭐ |
-| [04](https://adventofcode.com/2023/day/4)  | Camp Cleanup             | ⭐⭐ |
 | [05](https://adventofcode.com/2023/day/5)  | Supply Stacks            | ⭐⭐ |
 | [06](https://adventofcode.com/2023/day/6)  | Tuning Trouble           | ⭐⭐ |
 | [07](https://adventofcode.com/2023/day/7)  | No Space Left On Device  | ⭐⭐ |
